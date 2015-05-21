@@ -170,7 +170,11 @@ public class CoffeeDetailsActivity extends AppCompatActivity {
         });
     }
 
-
+   /**
+     * Sets up the status bar by getting the status bar height, then setting the imageview that acts as a
+     * status bar to the same height to give pre 5.0 devices a colored status bar. This works because the style of the 
+     * application has a translucent status bar.
+     */
     private void setUpStatusBar() {
         int statusBarHeight = Utils.getStatusBarHeight();
         android.view.ViewGroup.LayoutParams layoutParams = statusBarBackground.getLayoutParams();
@@ -261,6 +265,7 @@ public class CoffeeDetailsActivity extends AppCompatActivity {
     public void onResume()
     {
         super.onResume();
+        //Find views to avoid null pointers.
         coffeeNameTV = (TextView)findViewById(R.id.coffee_name);
         coffeeDescription = (TextView)findViewById(R.id.coffee_description);
         updatedTV = (TextView)findViewById(R.id.updated_tv);
