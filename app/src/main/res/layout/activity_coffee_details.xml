@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="percolate.com.coffeeapp.activities.CoffeeDetailsActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/coffe_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:transitionName="@string/coffee_pic"
+        android:visibility="visible"
+        android:layout_below="@+id/coffee_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/coffee_pic_padding" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/updated_tv"
+        android:textColor="@color/description_text_color"
+        android:layout_alignLeft="@+id/coffee_description"
+        android:layout_alignStart="@+id/coffee_description"
+        android:layout_below="@id/coffe_pic"
+        android:layout_marginTop="@dimen/coffee_pic_padding" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/coffee_desc_height"
+        android:id="@+id/coffee_description"
+        android:layout_below="@+id/divider"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/description_text_color"
+        android:layout_alignLeft="@+id/divider"
+        android:layout_alignStart="@+id/divider"
+        android:layout_marginRight="@dimen/coffee_pic_padding"
+        android:layout_marginEnd="@dimen/coffee_pic_padding"
+        android:visibility="visible"
+        android:textSize="@dimen/coffee_desc_textsize"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/coffee_name"
+        android:layout_below="@+id/include"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/title_text_color"
+        android:textSize="25sp"
+        android:layout_alignLeft="@+id/divider"
+        android:layout_alignStart="@+id/divider"
+        android:layout_marginTop="20dp" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/divider"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/divider"
+        android:layout_below="@+id/coffee_name"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp" />
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/include"/>
+
+</RelativeLayout>

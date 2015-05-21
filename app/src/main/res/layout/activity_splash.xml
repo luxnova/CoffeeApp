@@ -12,26 +12,27 @@
 
 
     <ImageView
-        android:layout_width="25dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/percolate_icon_width"
+        android:layout_height="@dimen/percolate_icon_height"
         android:id="@+id/imageView"
         android:src="@drawable/drip_colored"
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@+id/textView"
         android:layout_toStartOf="@+id/textView"
-        android:layout_marginRight="5dp" />
+        android:layout_marginRight="@dimen/percolate_icon_marginright"
+        android:layout_marginEnd="@dimen/percolate_icon_marginright" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Coffee"
         android:id="@+id/textView"
-        android:textColor="#ffe7620a"
+        android:textColor="@color/toolbar_color"
         android:gravity="center|bottom"
-        android:textSize="40sp"
+        android:textSize="@dimen/splash_textsize"
         android:textStyle="bold"
-        android:layout_marginRight="115dp"
-        android:layout_marginEnd="115dp"
+        android:layout_marginRight="@dimen/splash_text_marginright"
+        android:layout_marginEnd="@dimen/splash_text_marginright"
         android:layout_alignTop="@+id/imageView"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />

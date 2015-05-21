@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_layout"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+    <RelativeLayout
+        android:id="@+id/card_view"
+        android:background="@color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/sublayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/coffe_name_text"
+                android:textColor="@color/title_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/coffee_name_text_margin_left"
+                android:layout_marginStart="@dimen/coffee_name_text_margin_left"
+                android:layout_marginTop="@dimen/coffee_name_text_margin_top" />
+
+            <TextView
+                android:id="@+id/coffee_description"
+                android:textColor="@color/description_text_color"
+                android:layout_below="@+id/coffe_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/coffee_name_text_margin_left"
+                android:paddingEnd="@dimen/coffee_name_text_margin_left"
+                android:layout_marginTop="@dimen/percolate_icon_marginright"
+                android:layout_marginBottom="@dimen/coffee_name_text_margin_left"
+                android:layout_alignLeft="@+id/coffe_name_text"
+                android:layout_alignStart="@+id/coffe_name_text"
+                android:layout_toLeftOf="@+id/arrow"
+                android:layout_toStartOf="@+id/arrow" />
+
+            <ImageView
+                android:id="@+id/coffee_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/coffee_description"
+                android:layout_margin="@dimen/coffee_name_text_margin_left"
+                android:visibility="visible"
+                android:transitionName="@string/coffee_pic"
+                android:layout_marginBottom="@dimen/percolate_icon_marginright" />
+
+            <ImageView
+                android:layout_width="@dimen/coffee_name_text_margin_top"
+                android:layout_height="@dimen/percolate_icon_height"
+                android:id="@+id/arrow"
+                android:src="@drawable/arrow"
+                android:layout_alignTop="@+id/coffe_name_text"
+                android:layout_above="@+id/coffee_image"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="@dimen/percolate_icon_marginright"
+                android:layout_marginEnd="@dimen/percolate_icon_marginright"/>
+
+            <ImageView
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/divider"
+                android:layout_marginStart="@dimen/coffee_name_text_margin_left"
+                android:layout_marginLeft="@dimen/coffee_name_text_margin_left"
+                android:layout_marginTop="@dimen/percolate_icon_marginright" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

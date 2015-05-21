@@ -42,5 +42,6 @@ dependencies {
     compile 'com.fasterxml.jackson.core:jackson-core:2.4.4'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.4.4'
     compile 'org.apache.directory.studio:org.apache.commons.codec:1.8'
+    compile 'com.balysv:material-ripple:1.0.2'
     compile files('libs/universal-image-loader-1.9.3.jar')
 }

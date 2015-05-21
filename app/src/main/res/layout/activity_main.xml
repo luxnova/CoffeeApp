@@ -2,40 +2,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@android:color/white">
 
     <View
         android:id="@+id/bgView"
         android:layout_width="match_parent"
-        android:layout_height="?actionBarSize"
+        android:layout_height="1dp"
         android:background="@color/toolbar_color"
-        android:elevation="5dp"
         android:transitionName="@string/toolbar"/>
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/realtoolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="@color/toolbar_color"
-        android:visibility="invisible"
-        android:gravity="center"
-        android:elevation="5dp">
-    <ImageView
-        android:id="@+id/icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@drawable/drip_white"
-        android:textColor="@android:color/white"
-        android:padding="12dp"/>
-</android.support.v7.widget.Toolbar>
 
-<android.support.v7.widget.RecyclerView
+    <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/white"
+        android:background="@color/gray"
         android:visibility="invisible"
-        android:layout_below="@+id/bgView" />
+        android:layout_below="@+id/include" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/include"/>
 
 </RelativeLayout>

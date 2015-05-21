@@ -2,158 +2,102 @@
 <items version="2" >
 
     <item
-        jar="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-0fc715b783f5d619c4b8247016dce1191fd08128.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-b920e650544d9ea61cab51240650e31aaf1dc29a.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.4.4/c5cd3347c0a86d0dcfbf3da593d8431d5a789d54/jackson-core-2.4.4.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c5cd3347c0a86d0dcfbf3da593d8431d5a789d54">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/jackson-core-2.4.4-83cc48db37f55465269e2adb3226c3ddf5550d38.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/.gradle/caches/modules-2/files-2.1/org.apache.directory.studio/org.apache.commons.codec/1.8/af243a2c8302b659b0afe9b4a2d8add1b7f964c0/org.apache.commons.codec-1.8.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="af243a2c8302b659b0afe9b4a2d8add1b7f964c0">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/org.apache.commons.codec-1.8-2ead3032a60f380517e7db0ee761381c0d1cde92.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-8e53f1f86bf74fdb3823ff4e583837a326fd606f.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/.gradle/caches/modules-2/files-2.1/org.apache.directory.studio/org.apache.commons.codec/1.8/af243a2c8302b659b0afe9b4a2d8add1b7f964c0/org.apache.commons.codec-1.8.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="af243a2c8302b659b0afe9b4a2d8add1b7f964c0">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/org.apache.commons.codec-1.8-2ead3032a60f380517e7db0ee761381c0d1cde92.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-32f76ec07853a83b59c35bb7d533a6ff456acb7b.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.4.4/e2ff13c3de2f5a2ab2449a3dace2b0d1c37bd8ee/jackson-databind-2.4.4.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e2ff13c3de2f5a2ab2449a3dace2b0d1c37bd8ee">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/jackson-databind-2.4.4-9b8eed5593cb5232eb57473d1253fa7ad2565a5c.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.8/af3be3f74d25fc5163b54f56a0d394b462dafafd/commons-codec-1.8.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="af3be3f74d25fc5163b54f56a0d394b462dafafd">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/commons-codec-1.8-985105b02151f83bbf06bba0d274f916cbc63a49.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.4/d3dad1a494f94579fca4b6a1142fb15fb68f0b2f/jackson-annotations-2.4.4.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d3dad1a494f94579fca4b6a1142fb15fb68f0b2f">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.4.4-f467ec001173c7123cf9be3abd5d3132a1ad2837.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-b920e650544d9ea61cab51240650e31aaf1dc29a.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4796f18d3750bf2bfa078407a94a7f9db35b440d">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-5fba70c1bc96109ad012c68f8931a477b8064732.jar" />
-    </item>
-    <item
         jar="/Users/JoshuaWilliams/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.8/af3be3f74d25fc5163b54f56a0d394b462dafafd/commons-codec-1.8.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="af3be3f74d25fc5163b54f56a0d394b462dafafd">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/commons-codec-1.8-985105b02151f83bbf06bba0d274f916cbc63a49.jar" />
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/commons-codec-1.8-985105b02151f83bbf06bba0d274f916cbc63a49.jar" />
     </item>
     <item
-        jar="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.2/jars/classes.jar"
+        jar="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="4796f18d3750bf2bfa078407a94a7f9db35b440d">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-5fba70c1bc96109ad012c68f8931a477b8064732.jar" />
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-7ac09080b6cae29bab543c9256bbeba2cd08568b.jar" />
     </item>
     <item
-        jar="/Users/JoshuaWilliams/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.4/d3dad1a494f94579fca4b6a1142fb15fb68f0b2f/jackson-annotations-2.4.4.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d3dad1a494f94579fca4b6a1142fb15fb68f0b2f">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.4.4-f467ec001173c7123cf9be3abd5d3132a1ad2837.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-0fc715b783f5d619c4b8247016dce1191fd08128.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-32f76ec07853a83b59c35bb7d533a6ff456acb7b.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/jars/classes.jar"
+        jar="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-229074946f3eb856ff79908d762b32675da23b9f.jar" />
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-ecc9b54fc3774bc9ffd0a76df623c5a6fee28697.jar" />
     </item>
     <item
         jar="/Users/JoshuaWilliams/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.4.4/e2ff13c3de2f5a2ab2449a3dace2b0d1c37bd8ee/jackson-databind-2.4.4.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e2ff13c3de2f5a2ab2449a3dace2b0d1c37bd8ee">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/jackson-databind-2.4.4-9b8eed5593cb5232eb57473d1253fa7ad2565a5c.jar" />
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/jackson-databind-2.4.4-9b8eed5593cb5232eb57473d1253fa7ad2565a5c.jar" />
     </item>
     <item
-        jar="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/jars/classes.jar"
+        jar="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-229074946f3eb856ff79908d762b32675da23b9f.jar" />
-    </item>
-    <item
-        jar="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
+        revision="21.1.2"
         sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-8e53f1f86bf74fdb3823ff4e583837a326fd606f.jar" />
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-3d3e4ded97c70b5d76ec600c72d726ed3d370740.jar" />
+    </item>
+    <item
+        jar="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-ec017ff08e92143b16a437e2797f0d0229f3d250.jar" />
+    </item>
+    <item
+        jar="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4796f18d3750bf2bfa078407a94a7f9db35b440d">
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-159100fcbd2016d6ae1c6013854846c55875a090.jar" />
+    </item>
+    <item
+        jar="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-d2fbff32150f78dd21fab2e47d5cd5dd4136738a.jar" />
     </item>
     <item
         jar="/Users/JoshuaWilliams/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.4.4/c5cd3347c0a86d0dcfbf3da593d8431d5a789d54/jackson-core-2.4.4.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="c5cd3347c0a86d0dcfbf3da593d8431d5a789d54">
-        <dex dex="/Users/JoshuaWilliams/Desktop/CodeSamples/Android Test/CoffeeApp/app/build/intermediates/pre-dexed/debug/jackson-core-2.4.4-83cc48db37f55465269e2adb3226c3ddf5550d38.jar" />
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/jackson-core-2.4.4-83cc48db37f55465269e2adb3226c3ddf5550d38.jar" />
+    </item>
+    <item
+        jar="/Users/JoshuaWilliams/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.4/d3dad1a494f94579fca4b6a1142fb15fb68f0b2f/jackson-annotations-2.4.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d3dad1a494f94579fca4b6a1142fb15fb68f0b2f">
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.4.4-f467ec001173c7123cf9be3abd5d3132a1ad2837.jar" />
+    </item>
+    <item
+        jar="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/libs/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-cf14925bc8c6578f8959b03e78a7c9e62829c516.jar" />
+    </item>
+    <item
+        jar="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/exploded-aar/com.balysv/material-ripple/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c733e9d1b065d940a08f2fca0ff920dfc08d94cc">
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/classes-b653a920026da26f898778758072cc8c6c67b31c.jar" />
+    </item>
+    <item
+        jar="/Users/JoshuaWilliams/.gradle/caches/modules-2/files-2.1/org.apache.directory.studio/org.apache.commons.codec/1.8/af243a2c8302b659b0afe9b4a2d8add1b7f964c0/org.apache.commons.codec-1.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="af243a2c8302b659b0afe9b4a2d8add1b7f964c0">
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/org.apache.commons.codec-1.8-2ead3032a60f380517e7db0ee761381c0d1cde92.jar" />
+    </item>
+    <item
+        jar="/Users/JoshuaWilliams/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/JoshuaWilliams/Desktop/CoffeeApp/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-32f76ec07853a83b59c35bb7d533a6ff456acb7b.jar" />
     </item>
 
 </items>
