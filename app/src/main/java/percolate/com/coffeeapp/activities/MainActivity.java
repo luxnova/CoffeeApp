@@ -126,6 +126,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Sets up the status bar by getting the status bar height, then setting the imageview that acts as a
+     * status bar to the same height to give pre 5.0 devices a colored status bar. This works because the style of the 
+     * application has a translucent status bar.
+     */
     private void setUpStatusBar() {
         int statusBarHeight = Utils.getStatusBarHeight();
         android.view.ViewGroup.LayoutParams layoutParams = statusBarBackground.getLayoutParams();
@@ -133,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
         layoutParams.height = statusBarHeight;
         Log.i(LOG_TAG, "Status bar height - After - " + statusBarBackground.getHeight());
         statusBarBackground.setLayoutParams(layoutParams);
-        statusBarBackground.setBackgroundColor(getResources().getColor(R.color.toolbar_color));
+        statusBarBackground.setBackgroundColor(getResources().getColor(R.color.status_bar_color));
     }
 
     /**
@@ -281,6 +286,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onResume() {
         super.onResume();
+        //Checks to see if the recycler view has been drawn and is attached, if not then it will set up the activity.
+        //This ensures that if the user puts their phone on sleep before the activity is finished animating, it will set up
+        //the activity when the user resumes.
         if(recyclerView.getVisibility() == View.INVISIBLE && recyclerViewAttached){
             setUpLayout();
             setUpToolBar();
