@@ -33,10 +33,6 @@ public class Utils {
     private static ImageLoader imageLoader;
     private static Context context;
     private static DisplayImageOptions options;
-
-
-
-
     /**
      * Method that calculates the status bar height for the specific device.
      *
@@ -51,7 +47,6 @@ public class Utils {
         Log.i(LOG_TAG, "Status Bar Height - " + result);
         return result;
     }
-
 
     /**
      * This method initiates the display image options for the universal imageloader.
@@ -119,7 +114,6 @@ public class Utils {
     }
 
     public static void setContext(Context mContext){context = mContext;}
-
 
     /**
      * Gets the time difference as a string from the string date passed. The format accepted is
