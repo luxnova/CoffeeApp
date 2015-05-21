@@ -182,7 +182,7 @@ public class CoffeeDetailsActivity extends AppCompatActivity {
         layoutParams.height = statusBarHeight;
         Log.i(LOG_TAG, "Status bar height - After - " + statusBarBackground.getHeight());
         statusBarBackground.setLayoutParams(layoutParams);
-        statusBarBackground.setBackgroundColor(getResources().getColor(R.color.toolbar_color));
+        statusBarBackground.setBackgroundColor(getResources().getColor(R.color.status_bar_color));
     }
 
 
