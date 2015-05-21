@@ -93,9 +93,7 @@ public class MainActivity extends AppCompatActivity {
     private void setUpLayout(){
         view = findViewById(R.id.bgView);
         setUpToolBar();
-
-
-
+        
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.addOnAttachStateChangeListener(new View.OnAttachStateChangeListener() {
@@ -256,11 +254,9 @@ public class MainActivity extends AppCompatActivity {
         };
     }
 
-
     public void setViewAttachment() {
         recyclerViewAttached = !recyclerViewAttached;
     }
-
 
     /**
      * Circular reveal on the passed view. For Android-L
@@ -307,6 +303,4 @@ public class MainActivity extends AppCompatActivity {
         startMain.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(startMain);
     }
-
-
 }
