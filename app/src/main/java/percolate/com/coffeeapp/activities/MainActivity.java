@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
      * Loads the coffee data for the recycler view.
      */
     private void loadData() {
+        Log.i(LOG_TAG, "Loading Data");
         progressBar.setVisibility(View.VISIBLE);
         RequestQueue queue = Volley.newRequestQueue(this);
         StringRequest stringRequest = new StringRequest(Request.Method.GET, getString(R.string.coffee_url), getResponseListener(), getErrorListener()){
@@ -84,7 +85,6 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         queue.add(stringRequest);
-
     }
 
     /**
@@ -114,6 +114,8 @@ public class MainActivity extends AppCompatActivity {
             Utils.setUpStatusBar(getWindow(), R.color.status_bar_color);
         }
         else{
+            Log.i(LOG_TAG, "Setting up layout for non 5.0 user.");
+
             recyclerView.setVisibility(View.VISIBLE);
             view.setVisibility(View.GONE);
             RelativeLayout toolBarLayout = (RelativeLayout)findViewById(R.id.include);

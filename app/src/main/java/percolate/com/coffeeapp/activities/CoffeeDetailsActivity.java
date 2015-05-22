@@ -71,6 +71,14 @@ public class CoffeeDetailsActivity extends AppCompatActivity {
         RelativeLayout toolBarLayout = (RelativeLayout)findViewById(R.id.include);
         shareButton = (TextView)toolBarLayout.findViewById(R.id.share);
         shareButton.setVisibility(View.VISIBLE);
+        if(Build.VERSION.SDK_INT <= Build.VERSION_CODES.KITKAT){
+            shareButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    shareOnClick(view);
+                }
+            });
+        }
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("");
@@ -85,6 +93,7 @@ public class CoffeeDetailsActivity extends AppCompatActivity {
      * @param v - view which the method will operate on click.
      */
     public void shareOnClick(View v){
+        Log.i(LOG_TAG, "Sharing ==>" + coffeeNameTV.getText());
         Intent sharingIntent = new Intent(Intent.ACTION_SEND);
         sharingIntent.setType("text/plain");
         sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, "Come drink this with me! " + coffeeDescription.getText());
@@ -131,6 +140,7 @@ public class CoffeeDetailsActivity extends AppCompatActivity {
      * @param coffee - the coffee for which data needs to be queried.
      */
     private void loadData(Coffee coffee){
+        Log.i(LOG_TAG, "Loading Data");
         RequestQueue queue = Volley.newRequestQueue(this);
         StringRequest stringRequest = new StringRequest(Request.Method.GET, getString(R.string.coffee_url) + coffee.getId(), getResponseListener(), getErrorListener()){
             @Override
@@ -256,6 +266,7 @@ public class CoffeeDetailsActivity extends AppCompatActivity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
+        Log.i(LOG_TAG, "---Option Item Selectd");
         onBackPressed();
         return true;
     }
@@ -274,5 +285,16 @@ public class CoffeeDetailsActivity extends AppCompatActivity {
         shareButton = (TextView)toolBarLayout.findViewById(R.id.share);
 
         Log.i(LOG_TAG, "On Resume");
+    }
+
+
+    /**
+     * slides the activity out towards the bottom.
+     */
+    @Override
+    public void onBackPressed(){
+        super.onBackPressed();
+        Log.i(LOG_TAG, "On back pressed");
+        if(Build.VERSION.SDK_INT <= Build.VERSION_CODES.KITKAT) overridePendingTransition(R.anim.none, R.anim.slide_out_bottom);
     }
 }
