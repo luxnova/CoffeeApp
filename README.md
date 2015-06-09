@@ -1,6 +1,4 @@
 # CoffeeApp
-Percolate Coffee App
-
 This project is compatible with Android 4.+ and built with Android Studio.
 
 To build please have the latest SDK version installed on your computer, clone or download from Github, open in Android Studio as an existing project and run the application.
